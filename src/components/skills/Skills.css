@@ -1,0 +1,111 @@
+
+.container {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    margin: 0% 8%;
+}
+
+.image_wrapper {
+  margin: 0px 30px;
+  width: 200px; /* set a fixed width */
+  height: 90px; /* set a fixed height */
+}
+
+.image_wrapper img {
+  width: 100%; /* make the image fill the container */
+  height: 100%; /* make the image fill the container */
+  object-fit: contain;/* ensure the image maintains its aspect ratio */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    text-align: center;
+    position: relative;
+    top: -380px;
+    margin: 0% 8%;
+}
+.image_wrapper img {
+  width: 70%;
+  height: 100%;
+  object-fit: contain;
+}
+.image_wrapper {
+  margin: 0px 10px;
+  width: 150px;
+  height: 90px;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    text-align: center;
+    position: relative;
+    top: -380px;
+    margin: 0% 8%;
+}
+.image_wrapper img {
+  width: 70%;
+  height: 100%;
+  object-fit: contain;
+}
+.image_wrapper {
+  margin: 0px 10px;
+  width: 150px;
+  height: 90px;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    text-align: center;
+    position: relative;
+    top: -400px;
+    margin: 0% 8%;
+}
+
+.image_wrapper {
+  margin: 0px 30px;
+  width: 200px; /* set a fixed width */
+  height: 90px; /* set a fixed height */
+}
+
+.image_wrapper img {
+  width: 100%; /* make the image fill the container */
+  height: 100%; /* make the image fill the container */
+  object-fit: contain;/* ensure the image maintains its aspect ratio */
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+      text-align: center;
+      position: relative;
+      top: 50px;
+      margin: 0% 8%;
+  }
+  
+  .image_wrapper {
+    margin: 0px 30px;
+    width: 200px; /* set a fixed width */
+    height: 90px; /* set a fixed height */
+  }
+  
+  .image_wrapper img {
+    width: 100%; /* make the image fill the container */
+    height: 100%; /* make the image fill the container */
+    object-fit: contain;/* ensure the image maintains its aspect ratio */
+  }}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    margin: 0% 8%;
+}
+}

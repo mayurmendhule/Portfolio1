@@ -1,0 +1,193 @@
+.Card {
+    position: relative;
+    top: 150px;
+    margin: 0px 8%;
+}
+
+
+.things-i-have-designed h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #212121;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+
+.project-img-container {
+    width: 34.5rem;
+    height: 15.875rem;
+    border: 1px solid whitesmoke;
+}
+.project-card__text {
+    color: white;
+    max-height: 14.375rem;
+    padding: 1.25rem 1.25rem 1.25rem 4.5rem;
+    background-color: #474559;
+    text-align: left;
+}
+.project-img {
+    display: block;
+    width: 120%;
+    height: 100%;
+    object-fit: contain;
+}
+.gitImage{
+    width: 40px;
+}
+.openImage{
+    width: 40px;
+}
+
+.project-info {
+    flex: 1 1;
+    /* margin-left: -3rem; */
+    text-align: right;
+    margin-top: 12%;
+    padding: 3px;
+    background-image: linear-gradient(to right, rgba(236, 161, 161, 0), rgb(117 230 234 / 21%))
+}
+
+.project-title {
+    /* font-size: 1.25rem; */
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    margin-bottom: 8px;
+}
+
+.project-subtitle {
+    /* font-size: 0.875rem; */
+    margin-bottom: 0.5rem;
+}
+
+.project-details p {
+    display: inline-block;
+    /* font-size: 0.875rem; */
+    /* margin-right: 1rem; */
+    margin-bottom: 0;
+    /* background-color: #474559; */
+    /* color: #fff; */
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.project-details p:last-of-type {
+    margin-right: 0;
+}
+.gitLinkbutton{
+    display: block;
+    text-align: center;
+}
+.gitbutton{
+    background: #474559;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 40px 0;
+    border-radius: 5px;
+    
+}
+
+.gitbutton:hover{
+    background-color:  rgb(255, 166, 0);
+    color: #212121;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .Card {
+        position: relative;
+        top: -300px;
+        margin: 0px 8%;
+    }
+    
+    .project-img-container {
+        width: 0px;
+        height: 0px;
+        border: 1px solid whitesmoke;
+      }
+      .project-card__text {
+        padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+      }  
+      
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Card {
+        position: relative;
+        top: -300px;
+        margin: 0px 8%;
+    }
+    
+    .project-img-container {
+        width: 0px;
+        height: 0px;
+        border: 1px solid whitesmoke;
+      }
+      .project-card__text {
+        padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+      }  
+      
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .Card {
+        position: relative;
+        top: -300px;
+        margin: 0px 8%;
+    }
+    
+    .project-img-container {
+        width: 0px;
+        height: 0px;
+        border: 1px solid whitesmoke;
+      }
+      .project-card__text {
+        padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+      }  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .Card {
+        position: relative;
+        top: 150px;
+        margin: 0px 8%;
+    }
+    .project-img-container {
+        width: 350px;
+        height: 15.875rem;
+        /* border: 1px solid whitesmoke; */
+    }
+    .project-card__text {
+        padding: 1.25rem 1.25rem 1.25rem 4.5rem;
+      }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .Card {
+        position: relative;
+        top: 200px;
+        margin: 0px 8%;
+    }
+    .project-img-container {
+        width: 34.5rem;
+        height: 15.875rem;
+        border: 1px solid whitesmoke;
+    }
+}

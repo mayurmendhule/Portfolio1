@@ -1,0 +1,25 @@
+.scroll-to-top-button {
+    background-color: #555; /* blue color */
+    color: orange;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: opacity 0.4s ease-in-out;
+  }
+  
+  .scroll-to-top-button:hover {
+    opacity: 0.8;
+    background-color: orange;
+    color: #555;
+  }
+  
+  .scroll-to-top-button svg {
+    font-size: 30px;
+  }

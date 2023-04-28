@@ -1,0 +1,133 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    position: relative;
+    top: 120px;
+    margin-top: 40px;
+}
+
+.about-heading {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 18rem;
+}
+
+.about-content h1 {
+    font-size: 50px;
+    color: #212121;
+}
+
+.about-content p {
+    flex: 1;
+    max-width: 50%;
+    color: #555;
+    line-height: 22px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about-content{
+        display: inline;
+    }
+    .about{
+        top: -20px;
+    }
+    .about-content h1{
+        text-align: center;
+    }
+    .about-content p {
+        max-width: none;
+        text-align: center;
+    }
+    .about-content h1{
+        visibility: hidden;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about-content{
+        display: inline;
+    }
+    .about{
+        top: -20px;
+    }
+    .about-content h1{
+        text-align: center;
+    }
+    .about-content p {
+        max-width: none;
+        text-align: center;
+    }
+    .about-content h1{
+        visibility: hidden;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .about{
+        top: -40px;
+    }
+    .about-content {
+        gap: 8rem;
+    }
+    .about-content{
+        display: inline;
+    }
+    .about-content h1{
+        text-align: center;
+        visibility: hidden;
+    }
+    .about-content p {
+        max-width: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .about{
+        top: 10px;
+    }
+    .about-content {
+        gap: 10rem;
+    }
+    .about-content h1{
+        visibility: visible;
+    }
+    .about-content{
+       
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+    }
+    .about-content p {
+        max-width: none;
+        text-align: left;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .about{
+        top: 120px;
+    }
+    .about-content {
+        gap: 16rem;
+    }
+    .about-content h1{
+        visibility: visible;
+    }
+    .about-content p {
+        max-width: 56%;
+        text-align: left;
+    }
+}

@@ -1,0 +1,163 @@
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+    
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #474559;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 20px 30px 0px;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .boy{
+    left: 45%;
+}
+
+.detel a:hover{
+ background-color:  rgb(255, 166, 0);
+ color: #212121;
+}   
+
+.contactme{
+    cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .images img {
+        visibility: hidden;
+    }
+    .detel{
+        margin-left: 8%;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .images {
+        width: 0%;
+        height: 0%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .images img {
+        visibility: hidden;
+    }
+    .detel{
+        margin-left: 8%;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .images {
+        width: 0%;
+        height: 0%;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .images img {
+        visibility: hidden;
+    }
+    .detel{
+        margin-left: 8%;
+        margin-top: 10%;
+        text-align: center;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .images{
+        width: 35%;
+        height: 60%;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+    }
+    .detel{
+        margin-left: 8%;
+        margin-top: 10%;
+        text-align: unset;
+    }
+    .images img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        left: 40%;
+        visibility: visible;
+        bottom: 80px;
+        transform: translateX(-20%);
+        transition: bottom 1s, left 1s;
+    }
+    
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .images{
+        width: 45%;
+        height: 75%;
+        position: absolute;
+        bottom: 10;
+        right: 100px;
+    }
+    .detel{
+        margin-left: 8%;
+        margin-top: 15%;
+    }
+    
+    .images img{
+        height: 90%;
+        position: absolute;
+        left: 50%;
+        bottom: 20;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    
+}
