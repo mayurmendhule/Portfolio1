@@ -20,7 +20,7 @@
   
   .logo {
     width: 150px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
   }
   .menu-icon {
     display: none;
