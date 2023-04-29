@@ -26,10 +26,10 @@ export default function Project() {
       <p>CSS</p>
     </div>
     <div className="design-item__links-list">
-      <a href="https://github.com/mayurmendhule/VidstrFrontend/tree/master" target="_blank" >
+      <a href="https://github.com/mayurmendhule/VidstrFrontend/tree/master" target="_blank" rel="noreferrer">
       <img className="gitImage" src={Git} alt="Link to project page" />
       </a>
-      <a href="https://videostring.onrender.com/" target="_blank" >
+      <a href="https://videostring.onrender.com/" target="_blank" rel="noreferrer">
         <img  className="openImage" src={Open} alt="Link to project repository" />
       </a>
     </div>
@@ -54,10 +54,10 @@ export default function Project() {
       <p>CSS</p>
     </div>
     <div className="design-item__links-list">
-      <a href="https://github.com/mayurmendhule/SnapShot/tree/master" target="_blank" >
+      <a href="https://github.com/mayurmendhule/SnapShot/tree/master" target="_blank" rel="noreferrer">
       <img className="gitImage" src={Git} alt="Link to project page" />
       </a>
-      <a href="https://snapshorapp.netlify.app/" target="_blank">
+      <a href="https://snapshorapp.netlify.app/" target="_blank" rel="noreferrer">
         <img  className="openImage" src={Open} alt="Link to project repository" />
       </a>
     </div>
@@ -81,10 +81,10 @@ export default function Project() {
       <p>CSS</p>
     </div>
     <div className="design-item__links-list">
-      <a href="https://github.com/mayurmendhule/weatherweb/tree/master" target="_blank">
+      <a href="https://github.com/mayurmendhule/weatherweb/tree/master" target="_blank" rel="noreferrer">
       <img className="gitImage" src={Git} alt="Link to project page"  />
       </a>
-      <a href="https://weatherweb-thk3.onrender.com" target="_blank">
+      <a href="https://weatherweb-thk3.onrender.com" target="_blank" rel="noreferrer">
         <img  className="openImage" src={Open} alt="Link to project repository" />
       </a>
     </div>
@@ -97,6 +97,7 @@ export default function Project() {
 href="https://github.com/mayurmendhule"
 className="gitbutton"
 target="_blank"
+rel="noreferrer"
 >View More On Github</a>
 </div>
 

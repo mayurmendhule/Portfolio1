@@ -21,16 +21,16 @@ function Contact() {
           ></iframe>
         </div>
         <div className="links">
-          <a href="https://github.com/mayurmendhule" target="_blank">
+          <a href="https://github.com/mayurmendhule" target="_blank" rel="noreferrer">
             <img src={Gitimage} alt="image1" width="40" height="40" />
           </a>
-          <a href="https://www.linkedin.com/in/mayurmendhule/" target="_blank">
+          <a href="https://www.linkedin.com/in/mayurmendhule/" target="_blank" rel="noreferrer">
             <img src={LinkedIn} alt="image2" width="30" height="30" />
           </a>
-          <a href="https://leetcode.com/mayurmendhule23/" target="_blank">
+          <a href="https://leetcode.com/mayurmendhule23/" target="_blank" rel="noreferrer">
             <img src={LeadCode} alt="image3" width="30" height="30" />
           </a>
-          <a href="https://twitter.com/MayurMendhule" target="_blank">
+          <a href="https://twitter.com/MayurMendhule" target="_blank" rel="noreferrer">
             <img src={Twiter} alt="image4" width="30" height="30" />
           </a>
         </div>

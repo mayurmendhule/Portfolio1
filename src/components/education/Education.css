@@ -78,10 +78,10 @@
       /* align-items: center; */
     }
     .card {
-      width: 480px;
+      width: 400px;
     }
     .card-content {
-      gap: 8rem;
+      gap: 3rem;
     }
   }
   /* Small devices (portrait tablets and large phones, 600px and up) */
