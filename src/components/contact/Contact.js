@@ -45,7 +45,7 @@ function Contact() {
             new ideas or oppurtunities and to be a part of your visions.
           </p>
           <p id="para2">Need help?</p>
-          <p className="mail">E-mail&nbsp;:  
+          <p className="mail">Email&nbsp;:  
             <a  href="mailto:mayurmendhule03@gmail.com">
             &nbsp;mayurmendhule03@gmail.com
             </a>
