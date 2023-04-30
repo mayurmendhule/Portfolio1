@@ -45,12 +45,12 @@ function Contact() {
             new ideas or oppurtunities and to be a part of your visions.
           </p>
           <p id="para2">Need help?</p>
-          <p className="mail">Email&nbsp;:  
+          <p className="mail">  
             <a  href="mailto:mayurmendhule03@gmail.com">
-            &nbsp;mayurmendhule03@gmail.com
+            mayurmendhule03@gmail.com
             </a>
           </p>
-          <p className="mail">Phone&nbsp;: <a>+91-7769977955</a>
+          <p className="mail"><a>+91-7769977955</a>
           </p>
         </div>
       </div>

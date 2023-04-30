@@ -76,7 +76,7 @@
   .logo {
     width: 120px;
   }
-  @media (max-width: 670px) {
+  @media (max-width: 903px) {
     .menu-icon {
       display: block;
       cursor: pointer;
