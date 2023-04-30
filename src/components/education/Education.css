@@ -80,6 +80,9 @@
     .card {
       width: 400px;
     }
+    .card-text {
+      padding-left: 30px;
+    }
     /* .card-content {
       gap: 3rem;
     } */
@@ -106,6 +109,9 @@
     .card-content {
       gap: 8rem;
     }
+    .card-text {
+      padding-left: 30px;
+    }
   }
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
@@ -131,6 +137,9 @@
     }
     .card{
       margin-left: 8%;
+    }
+    .card-text {
+      padding-left: 30px;
     }
   }
   
