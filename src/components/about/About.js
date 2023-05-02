@@ -10,16 +10,14 @@ export default function About() {
       <div className="about-content">
       <h1>Who I'm</h1>
         <p>
-          My name's Mayur Mendhule. I'm a Front-End Web Developer from Wardha,
-          Maharashtra. 
+        My name is Mayur Mendhule. I'm a Front-end Web Developer from Wardha, Maharashtra. 
           <br></br>
           <br></br>
-          I believe that the power of technology can make
-          people's lives easier and that new frameworks and technology make
-          developers more productive to the tech community. Learning HTML, CSS
-          and JavaScript from my Engineering journey, piqued my interest in coding.
-          Since then my life has been about pursuing a career in coding and web
-          development.
+          I believe that the power of technology can make people's lives easier 
+          and that new frameworks and technology make developers more productive 
+          in the tech community. Learning HTML, CSS, and JavaScript through my 
+          engineering journey piqued my interest in coding. Since then, my life 
+          has been about pursuing a career in coding and web development.
         </p>
         
       </div>

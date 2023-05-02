@@ -42,7 +42,7 @@ function Contact() {
           </h1>
           <p id="para">
             Feel free to get in touch with me. I am always open to discussing
-            new ideas or oppurtunities and to be a part of your visions.
+            new ideas opportunities and to be a part of your visions.
           </p>
           <p id="para2">Need help?</p>
           <p className="mail">  
