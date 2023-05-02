@@ -18,7 +18,8 @@ export default function Home() {
   return (
     <div>
         <div className='detel'>
-        <h1>I'm <span className='flipX'>{isMayur ? 'Mayur' : 'A Developer'}</span></h1>
+        <h1 className='heading1'>Hey folks, I'm </h1> 
+        <h1 className='flipX'>{isMayur ? 'Mayur Mendhule' : 'A Developer'}</h1>
         <p>Building a successful product is a challenge. I am highly energetic in building <br></br>
         web interfaces and front-end development.</p>
         <a href={Resume} download>Download CV</a>

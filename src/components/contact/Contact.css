@@ -95,6 +95,14 @@
     color: orange;
 }
 
+@media only screen and (max-width: 404px) {
+  .location{
+    margin-left: 15%;
+  }
+  .links{
+    width: 502px;
+  }
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -109,6 +117,7 @@
 .right-section{
   width: 100%;
 }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

@@ -80,12 +80,10 @@
     .card {
       width: 400px;
     }
-    .card-text {
-      padding-left: 30px;
+  
+    .card-content {
+      gap: 4rem;
     }
-    /* .card-content {
-      gap: 3rem;
-    } */
   }
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
@@ -109,9 +107,6 @@
     .card-content {
       gap: 8rem;
     }
-    .card-text {
-      padding-left: 30px;
-    }
   }
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
@@ -131,15 +126,10 @@
     }
     .card {
       width: 510px;
+      margin-left: 11%;
     }
     .card-content {
       gap: 10rem;
-    }
-    .card{
-      margin-left: 8%;
-    }
-    .card-text {
-      padding-left: 30px;
     }
   }
   
@@ -151,9 +141,11 @@
     }
     .card-container h1{
       text-align: left;
-    }.card{
+    }
+    .card{
       margin-left: 0%;
-    }.card {
+    }
+    .card {
       display: flex;
       align-items: center;
       width: 400px;
