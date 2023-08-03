@@ -84,7 +84,7 @@ export default function Project() {
       <a href="https://github.com/mayurmendhule/weatherweb/tree/master" target="_blank" rel="noreferrer">
       <img className="gitImage" src={Git} alt="Link to project page"  />
       </a>
-      <a href="https://weatherweb-thk3.onrender.com" target="_blank" rel="noreferrer">
+      <a href="https://weatherweb-x3m2.onrender.com" target="_blank" rel="noreferrer">
         <img  className="openImage" src={Open} alt="Link to project repository" />
       </a>
     </div>
